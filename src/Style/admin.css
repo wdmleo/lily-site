@@ -22,3 +22,19 @@
     margin-top: 8px;
     margin-right: 16px;
 }
+
+.relative-container {
+    position: relative;
+}
+
+.social-container {
+    padding: 32px;
+}
+
+.social {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 500px;
+}
